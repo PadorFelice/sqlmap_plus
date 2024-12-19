@@ -16,7 +16,7 @@ Installation
 
 您可以点击这里下载最新的 tarball [here](https://github.com/PadorFelice/sqlmap_plus/tarball/master) 或点击这里下载最新的版本  [here](https://github.com/PadorFelice/sqlmap_plus/zipball/master).
 
-更推荐的方式是通过克隆 Git 仓库来下载 sqlmap_plus： [Git](https://github.com/PadorFelice/sqlmap_plus/tree/master) repository:
+更推荐的方式是通过克隆 Git 仓库来下载 sqlmap_plus：[Git](https://github.com/PadorFelice/sqlmap_plus/tree/master) repository:
 
     git clone https://github.com/PadorFelice/sqlmap_plus.git
 
