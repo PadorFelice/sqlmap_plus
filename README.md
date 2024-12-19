@@ -20,7 +20,7 @@ Installation
 
     git clone https://github.com/PadorFelice/sqlmap_plus.git
 
-sqlmap 在任何平台上都可以与 [Python](http://www.python.org/download/)   **2.6.x** and **2.7.x** 版本开箱即用.
+sqlmap_plus 在任何平台上都可以与 [Python](http://www.python.org/download/)   **2.6.x** and **2.7.x** 版本开箱即用.
 
 Usage
 ----
